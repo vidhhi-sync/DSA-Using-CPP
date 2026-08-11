@@ -1,5 +1,5 @@
 //Generic Skeleton of C++
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     cout<<"Hey Vidhi!"<<"\n"; //to print in next use \n
@@ -19,7 +19,13 @@ int main(){
     cin>>x>>y;
     cout<<"Value of x is:"<< x << "And y is :"<<y;
     return 0;
-}*/
+}
 
 //Including all the libraries in one go, we use:
+//common skeleton of the code we are gonna use 
 #include<bits/stdc++.h>
+using namespace std;
+int main(){
+
+    return 0;
+}

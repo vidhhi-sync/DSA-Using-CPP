@@ -14,7 +14,7 @@ int main(){
     return 0;
 }
 
-*/
+
 
 //grading system
 #include<bits/stdc++.h>
@@ -43,6 +43,29 @@ int main(){
     }
     else{
         cout<<"invalid input";
+    }
+    return 0;
+}
+*/
+
+//Age Eligibity System
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int age;
+    cout<<"Enter your age:";
+    cin>>age;
+    if (age<18){
+        cout<<"Not Eligible for job";
+    }
+    else if (age>=18 && age<=54){
+        cout<<"Eligible for job";
+    }
+    else if(age>=55 && age<=57){
+        cout<<"Eligible but retirement soon";
+    }
+    else{
+        cout<<"Retirement time";
     }
     return 0;
 }
